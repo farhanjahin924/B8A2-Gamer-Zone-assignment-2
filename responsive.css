@@ -1,0 +1,23 @@
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    /* htnl{
+        font-size: 5px;
+    } */
+    nav{
+      padding: 20px 0px;
+    }
+  .nav-container  ,.nav-ancor  {
+  flex-direction: column;
+  gap: 20px;
+
+.follow-us
+{
+    width: 198px;
+    /* width: fit-content; */
+} 
+   
+  }
+  /* medium devices */
+  @media screen and (min-width: 576px) and (max-width: 960px) {
+    
+  }
