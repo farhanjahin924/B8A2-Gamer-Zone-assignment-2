@@ -5,12 +5,12 @@
 }
 body {
   font-family: "Work Sans", sans-serif;
+  background: #fff;
 }
 /* nav design */
 nav {
   padding: 20px 150px;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-
 }
 .nav-container {
   display: flex;
@@ -48,7 +48,7 @@ nav {
   align-items: center;
 }
 .nav-ancor a,
-.follow-us  {
+.follow-us {
   color: #3c354f;
   text-align: center;
   font-size: 1.125rem;
@@ -63,8 +63,94 @@ nav {
   border: none;
   padding: 17px;
 }
-.follow-us > a{
+.follow-us > a {
   text-decoration: none;
   font-size: 1.3rem;
   text-align: center;
+}
+/* banner section */
+.banner-container {
+  height: 450px;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+.banner-container div {
+  flex: 1;
+}
+.banner-left {
+  height: 100%;
+  background-image: url("./images/Group\ 14.png");
+  background-size: cover;
+  fill: linear-gradient(
+    223deg,
+    rgba(140, 87, 238, 0.03) 0%,
+    rgba(241, 68, 174, 0.03) 100%
+  );
+  /* display: flex;
+
+  align-items: center; */
+}
+.banner-right {
+  height: 100%;
+  padding-left: 150px;
+  /* border: 10px solid black; */
+  width: fit-content;
+}
+.banner-right img {
+  height: 450px;
+}
+.banner-left h4 {
+  color: #0b0223;
+  /* text-align: center; */
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.banner-left h2 {
+  /* text-align: center; */
+  font-size: 5.9375rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.banner-left p {
+  color: #534c64;
+  /* text-align: center; */
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.btn-1 {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  gap: 10px;
+  padding: 12px 20px;
+  margin-top: 20px;
+}
+.btn-2 {
+  border-radius: 48px;
+  background: #4ec5f7;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  gap: 10px;
+  padding: 12px 20px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.banner-content{
+  padding: 60px 0px 0px 100px;
+  width: fit-content;
 }
