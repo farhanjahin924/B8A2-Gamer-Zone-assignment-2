@@ -51,7 +51,11 @@
     height: 10px;
   }
 /* game type end */
-
+/* play instantly */
+.play-instant-container {
+    flex-direction: column;
+}
+/* play instantly end */
 /* footer start */
 .foot-a {
   display: grid;
