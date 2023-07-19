@@ -8,47 +8,30 @@
    html{
     font-size: 8px;
    }
-    nav{
-      padding: 0px 0px;
-      box-shadow: 0px;
+   nav{
+    margin-bottom: 80px;
+   }
+    .nav-container{
+      padding-top: 20px;
+      gap: 20px;
     }
-    
-  .nav-container  ,.nav-ancor,.logos  {
+  .nav-container  ,.nav-ancor,.logos, .banner-container  {
   flex-direction: column;
  
 }
+.banner-container{
+  padding-left: 30px;
+  margin-bottom: 70px;
+}
 .follow-us
 {
-    width: 198px;
-    
+    width: 120px;
+   margin-bottom: 10px; 
 } 
-/* banner responsive */
-   .banner-container {
-    flex-direction: column;  
-     
-}
-.banner-right {
-  height: fit-content;
-  width: 250px;
-  padding: 0px;
-}
-.banner-right img {
-  height: 250px;
- padding: 0;
- margin: 30px 70px ;
-}
-.banner-content{
-  padding: 50px 100px;
-  
-}
 
-.banner-section-responsive{
-  margin-bottom: 250px;
-}
 /* game type start */
 .game-type-container{
-  padding: 10px;
-  display: grid;
+  padding: 40px;
 }
 .nine-container{
   width: 100%;
@@ -126,10 +109,7 @@ nav{
     width: 100px;
   }
 
-  .banner-right {
 
-  }
-  /* puse */
   /* single game start  */ 
  
   .pictures-titles { 
@@ -175,10 +155,10 @@ nav{
     position: absolute; 
     margin-left: 70px; 
     margin-right: 0px; 
-    top: 6px; 
-    left: 13px; 
+    top: 2px; 
+    left: 16px; 
     width: 60%; 
-    height: 90%; 
+    height: 92%; 
     border-radius: 10px; 
     background-color: rgba(0, 0, 0, 0.8); 
      
