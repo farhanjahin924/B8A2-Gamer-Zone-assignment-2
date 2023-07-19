@@ -1,10 +1,10 @@
 /* mobile devices */
 @media screen and (max-width: 576px) {
-  /* body{
-    width: 425px;
+  body{
     
-    overflow: hidden;
-  } */
+    margin: auto;
+    
+  }
    html{
     font-size: 8px;
    }
@@ -28,7 +28,8 @@
      
 }
 .banner-right {
-  height:70% ;
+  height: fit-content;
+  width: 250px;
   padding: 0px;
 }
 .banner-right img {
@@ -47,9 +48,11 @@
 /* game type start */
 .game-type-container{
   padding: 10px;
+  display: grid;
 }
 .nine-container{
   width: 100%;
+
   grid-template-columns: repeat(3,1fr);
   margin: 0;
   }
@@ -109,8 +112,8 @@ nav{
   
   }
   .play-instant-image{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 250px;
   }
   .sub-img{
     width: 80px;
@@ -120,9 +123,77 @@ nav{
     margin: 0px;
     position: relative;
     bottom: 100px;
+    width: 100px;
   }
 
+  .banner-right {
+
+  }
   /* puse */
+  /* single game start  */ 
+ 
+  .pictures-titles { 
+    width: 100%; 
+    text-align: center; 
+    position: relative; 
+    display: inline-block; 
+
+} 
+.watch { 
+    display: none; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(212, 212, 212); 
+    width: 150px; 
+    height: 150px; 
+    text-align: center; 
+    font-size: 25px; 
+    
+} 
+ 
+.watch-play-icon{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+     
+}  
+ 
+.watch-play p { 
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); 
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-weight: 600; 
+}   
+ 
+.pictures-titles:hover::before { 
+    content: ""; 
+    position: absolute; 
+    margin-left: 70px; 
+    margin-right: 0px; 
+    top: 6px; 
+    left: 13px; 
+    width: 60%; 
+    height: 90%; 
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.8); 
+     
+} 
+ 
+.pictures-titles:hover .watch { 
+    display: block; 
+     
+    
+} 
+ 
+/* single game end  */
+
+
+
 }
 
 

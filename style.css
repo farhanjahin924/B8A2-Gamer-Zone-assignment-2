@@ -1,5 +1,5 @@
 * {
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   margin: 0;
   padding: 0;
 }
@@ -79,8 +79,8 @@ nav {
 }
 .banner-left {
   height: 100%;
-  /* background-image: url("./images/Group\ 14.png"); */
-  /* background-size: cover; */
+  background-image: url("./images/Group\ 14.png");
+  background-size: cover;
   fill: linear-gradient(
     223deg,
     rgba(140, 87, 238, 0.03) 0%,
@@ -153,6 +153,7 @@ nav {
 }
 
 /* banner style end */
+/* online video */
 .online-game-container h3 {
   color: #0b0223;
   text-align: center;
@@ -184,10 +185,11 @@ nav {
   flex-wrap: wrap;
 }
 .pictures-titles img {
-  width: 200px;
+  width: 250px;
+  height: 300;
 }
 .pictures-titles {
-  width: 200px;
+  width: 250px;
 }
 .pictures-titles p {
   color: #534c64;
@@ -196,15 +198,61 @@ nav {
   font-weight: 500;
   margin: 5px 0px;
 }
-.pictures-titles > img:hover {
-  display: inline-block;
-  position: relative;
 
-  filter: brightness(0.8);
-  border-radius: 16px;
-  border: 5px solid red;
-}
-/* test */
+/* single game */ 
+ 
+.pictures-titles { 
+  position: relative; 
+  display: inline-block; 
+} 
+.watch-play { 
+  display: none; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: rgb(212, 212, 212); 
+  width: 150px; 
+  height: 150px; 
+  text-align: center; 
+  font-size: 25px; 
+  
+} 
+
+.watch-play-icon{ 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+   
+}  
+
+.watch-play p { 
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%)); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-weight: 600; 
+}   
+
+.pictures-titles:hover::before { 
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 80%; 
+  border-radius: 10px; 
+  background-color: rgba(0, 0, 0, 0.8);  
+} 
+
+.pictures-titles:hover .watch-play { 
+  display: block; 
+  
+} 
+
+/* single game end  */
 
 
 
