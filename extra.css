@@ -1,81 +1,140 @@
-.banner-container {
-    display: flex;
-    /* justify-content: space-between; */
-    gap: 20px;
-    align-items: center;
-    border: 2px solid red;
-    /* margin-left: 30px; */
-  }
-  .banner-container div{
-    flex: 1;
-  }
-  .banner-right {
-    /* width: 580px; */
-    height: 100%;
-  }
-  .banner-left {
-    /* width: calc(100% - 580px); */
-    /* padding-left: 200px; */
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    background-image: url(./images/Group\ 14.png);
-  }
-  .banner-right img {
-    /* object-fit: cover; */
-    width: 400px;
-    padding: 0px;
-    margin: 0px;
-    border: 5px solid blue;
-  }
-  .banner-left h4 {
-    color: #0b0223;
-    /* text-align: center; */
-    font-size: 3rem;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  .banner-left h2 {
-    /* text-align: center; */
-    font-size: 5.9375rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .banner-left p {
-    color: #534c64;
-    /* text-align: center; */
-    font-size: 1.25rem;
-    font-weight: 500;
-  }
-  .btn-1 {
-    border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
-    gap: 10px;
-    padding: 12px 20px;
-  }
-  .btn-2 {
-    border-radius: 48px;
-    background: #4ec5f7;
-    color: #fff;
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    border: none;
-    gap: 10px;
-    padding: 12px 20px;
-  }
-  
-    /* medium devices */
-    @media screen and (min-width: 576px) and (max-width: 960px) {
-    
-    }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Landing</title>
+    <link rel="icon" href="./images/Frame.png" sizes="16*16" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="nav-logo-container">
+            <img src="./images/Frame.png" alt="" />
+            <h4 class="logo-text"><span class="G">G</span>amer</h4>
+          </div>
+          <div class="nav-ancor">
+            <a href="">About Us</a>
+            <a href="">Developers</a>
+            <div class="follow-us">
+              <p>Follow Us On</p>
+              <a href=""
+                ><i class="fa-brands fa-youtube" style="color: #ff0000"></i
+              ></a>
+              <a href=""
+                ><i class="fa-brands fa-tiktok" style="color: #1e3050"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- banner section -->
+      <section class="banner-section-responsive">
+        <div class="banner-container">
+          <div class="banner-left">
+            <div class="banner-content">
+              <h4>Play Like The</h4>
+              <h2>G.O.A.T.</h2>
+              <p>1-Click instant play</p>
+              <p>No Download</p>
+              <p>1000s of supported online games</p>
+              <div class="div">
+                <button class="btn-1">Sign In</button>
+                <button class="btn-2">Go Rogue</button>
+              </div>
+            </div>
+          </div>
+          <div class="banner-right">
+            <img src="./images/Group 18.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- banner section end here -->
+      <!-- Online video section start here      -->
+      <section>
+        <div class="online-game-container">
+          <h3>Online Games <span class="funny-videos">Funny Videos</span></h3>
+          <p>A Collection of Hilarious Videos to Brighten Your Day</p>
+          <div class="img-container">
+            <div class="pictures-titles">
+              <img src="./images/Rectangle 4.png" alt="" />
+              <!-- <div class="play-pause-icon">
+                <i class="fa-regular fa-circle-play" style="color: #ff0000;"></i>
+              </div> -->
+              <p class="online-title">
+                No Download. No Installs. Play games Instantly on Gamer.
+              </p>
+            </div>
+            <div class="pictures-titles">
+              <img src="./images/Rectangle 5.png" alt="" />
+              <p class="online-title">Did you score? #unblockedgames #school</p>
+            </div>
+            <div class="pictures-titles">
+              <img src="./images/Rectangle 7.png" alt="" />
+              <p class="online-title">Breaking game records like OG</p>
+            </div>
+            <div class="pictures-titles">
+              <img src="./images/Rectangle 6.png" alt="" />
+              <p class="online-title">
+                Busted gaming on school laptop, but you are still lit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- online video -->
+      <!--  -->
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="footer-container">
+          <img src="./images/Frame.png" alt="" />
+          <span class="footer-logo-text"><span class="G">G</span>amer</span>
+          
+        <div class="foot-li">
+          <ul>
+            <li>Our Story</li>
+            <li>Games</li>
+            <li>Web Games</li>
+            <li>Support</li>
+            <li>My Account</li>
+            <li>Careers</li>
+          </ul>
+        </div>
+        
+        
+        <div class="logos">
+          <div class="div1">
+            <a href=""
+            ><i class="fa-brands fa-twitter" style="color: #ffffff"></i></a>
+          <a href=""><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-brands fa-square-youtube" style="color: #ffffff;"></i></a>
+          </div>
+          <div class="div2">
+            <a href=""><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+          <a href=""><i class="fa-brands fa-apple" style="color: #ffffff;"></i></a>
+        </div>
+          </div>
+      </div>
+    </footer>
+  </body>
+</html>
