@@ -15,6 +15,7 @@
     width: 198px;
     
 } 
+/* banner responsive */
    .banner-container {
     flex-direction: column;  
      
@@ -31,6 +32,10 @@
 .banner-content{
   padding: 50px 100px;
   
+}
+
+.banner-section-responsive{
+  margin-bottom: 200px;
 }
 
 }
