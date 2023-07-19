@@ -2,6 +2,7 @@
   /* border: 1px solid purple; */
   margin: 0;
   padding: 0;
+  
 }
 body {
   font-family: "Work Sans", sans-serif;
@@ -86,9 +87,7 @@ nav {
     rgba(140, 87, 238, 0.03) 0%,
     rgba(241, 68, 174, 0.03) 100%
   );
-  /* display: flex;
-
-  align-items: center; */
+ 
 }
 .banner-right {
   height: 100%;
@@ -204,8 +203,7 @@ nav {
   display: inline-block;
   position: relative;
   
-  filter: brightness(0.7);
+  filter: brightness(0.8);
   border-radius: 16px;
-  border: 5px solid pink;
+  border: 5px solid red;
 }
- 
