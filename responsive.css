@@ -188,6 +188,15 @@ nav{
     flex-direction: column;
    
   }
+      .nav-container{
+      padding-top: 20px;
+      gap: 20px;
+    }
+    .banner-container{
+      padding-left: 60px;
+      padding-top: 120px;
+      margin-bottom: 0px;
+    }
   .watch-play-icon{ 
     display: flex; 
     flex-direction: column; 
@@ -200,6 +209,7 @@ nav{
   flex-direction: column;  
    
 }
+
 .nine-container{
   width: 100%;
 
@@ -207,7 +217,14 @@ nav{
   margin: 0;
   }
   .online-game-container{
-    padding-top: 500px;
+    padding-top: 80px;
+  }
+  .banner-left{
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .banner-right{
+    margin: auto;
   }
 }
 
