@@ -38,6 +38,19 @@
 .banner-section-responsive{
   margin-bottom: 250px;
 }
+/* game type start */
+.game-type-container{
+  padding: 10px;
+}
+.nine-container{
+  width: 100%;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0;
+  }
+  .nine-container img{
+    height: 10px;
+  }
+/* game type end */
 
 /* footer start */
 .foot-a {
