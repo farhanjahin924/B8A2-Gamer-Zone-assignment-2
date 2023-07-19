@@ -376,7 +376,7 @@ line-height: normal;
   gap: 10px;
   color: #fff;
   text-align: center;
-
+  margin-top: 20px;
   font-size: 1.125rem;
 
   font-weight: 600;
@@ -411,6 +411,11 @@ line-height: normal;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 .foot-a2 p{
   margin-top: 10px;
