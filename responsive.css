@@ -226,6 +226,16 @@ nav{
   .banner-right{
     margin: auto;
   }
+  .footer-container {
+    width: 80%;
+  }
+  .pictures-titles:hover::before { 
+  
+    width: 100%; 
+    height: 85%; 
+    
+  } 
+ 
 }
 
 
