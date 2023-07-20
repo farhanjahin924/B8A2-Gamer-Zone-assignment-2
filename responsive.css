@@ -31,16 +31,17 @@
 
 /* game type start */
 .game-type-container{
-  padding: 40px;
+  padding: 30px;
 }
-.nine-container{
+.nine{
   width: 100%;
-
+  gap: 14px;
+  display: grid;
   grid-template-columns: repeat(3,1fr);
   margin: 0;
   }
-  .nine-container img{
-    height: 10px;
+  .nine img{
+    height: 20px;
   }
 /* game type end */
 /* play instantly */
@@ -184,7 +185,7 @@ nav{
 
 
 @media screen and (min-width:576px) and (max-width:960px){
-  .nav-container  ,.nav-ancor,.logos, .play-instant-container  {
+  .nav-container  ,.nav-ancor, .play-instant-container  {
     flex-direction: column;
    
   }
@@ -210,9 +211,9 @@ nav{
    
 }
 
-.nine-container{
+.nine{
   width: 100%;
-
+  display: grid;
   grid-template-columns: repeat(3,1fr);
   margin: 0;
   }
@@ -237,7 +238,6 @@ nav{
   } 
  
 }
-
 
 
 
