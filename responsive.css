@@ -156,10 +156,10 @@ nav{
     position: absolute; 
     margin-left: 70px; 
     margin-right: 0px; 
-    top: 2px; 
-    left: 16px; 
-    width: 60%; 
-    height: 92%; 
+    top: 0px; 
+    left: 13px; 
+    width: 58%; 
+    height: 89%; 
     border-radius: 10px; 
     background-color: rgba(0, 0, 0, 0.8); 
      
